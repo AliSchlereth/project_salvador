@@ -3,6 +3,7 @@
 $dark-accent: #0E3B43;
 // $light-background: #F3F9EF;
 $light-background: #FAFFF7;
+$hover: #426B69;
 
 nav, footer {
   background-color: $dark-accent;
@@ -54,4 +55,27 @@ main {
 
 .brand {
   font-size: 25px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 150px;
+  color: $dark-accent;
+  padding-top: 11px;
+}
+
+.dropdown-content a:hover {
+  color: $hover;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  // position: absolute;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
