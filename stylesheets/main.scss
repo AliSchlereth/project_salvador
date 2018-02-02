@@ -1,0 +1,16 @@
+@import '_reset';
+
+$dark-accent: #0E3B43;
+$light-background: #DCEED1;
+
+nav, footer {
+  background-color: $dark-accent;
+  color: $light-background;
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 40px;
+}

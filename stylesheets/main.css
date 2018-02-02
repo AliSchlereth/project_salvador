@@ -1,0 +1,14 @@
+body {
+  margin: 0; }
+
+nav, footer {
+  background-color: #0E3B43;
+  color: #DCEED1; }
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 40px; }
+
+/*# sourceMappingURL=main.css.map */
