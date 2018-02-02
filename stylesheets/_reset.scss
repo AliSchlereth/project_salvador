@@ -1,5 +1,3 @@
-// $light-background: #F3F9EF;
-$light-background: #FAFFF7;
 
 body {
   margin: 0;
@@ -7,4 +5,5 @@ body {
   display: flex;
   flex-direction: column;
   background-color: $light-background;
+  font-family: 'Muli', sans-serif;
 }
