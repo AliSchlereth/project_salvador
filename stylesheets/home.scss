@@ -1,0 +1,24 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home-header {
+  color: $dark-accent;
+  display: flex;
+  justify-content: center;
+}
+
+.header-image {
+  margin: 50px;
+  width: 900px;
+  // flex: 2;
+}
+
+.home-content {
+  display: flex;
+  align-self: center;
+  // justify-content: center;
+  max-width: 750px;
+}
