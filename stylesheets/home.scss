@@ -12,13 +12,16 @@
 
 .header-image {
   margin: 50px;
-  width: 900px;
-  // flex: 2;
+  margin-bottom: 10px;
+  width: 65%;
+  height: 65%;
 }
 
 .home-content {
   display: flex;
   align-self: center;
-  // justify-content: center;
   max-width: 750px;
+  color: $dark-accent;
+  font-size: 18px;
+  font-weight: bolder;
 }
