@@ -1,8 +1,3 @@
-h2 {
-  display: flex;
-  justify-content: center;
-}
-
 .history {
   display: flex;
   flex-direction: column;
@@ -15,14 +10,14 @@ h2 {
   justify-content: center;
   align-items: center;
   margin-left: 20px;
+  // background-color: $hover;
 }
 
 .header-text {
   margin-top: 35px;
   margin-bottom: 30px;
-  // margin-left: 70px;
-  // margin-right: 50px;
   font-size: 30px;
+  text-align: center;
 }
 
 .header-image {
@@ -39,7 +34,6 @@ h2 {
   max-width: 800px;
   color: $dark-accent;
   font-size: 18px;
-  // font-weight: bolder;
 }
 
 .history-section {
@@ -62,4 +56,14 @@ h2 {
 
 .article-header {
   font-style: italic;
+}
+
+.text-break {
+  font-family: 'Chonburi', cursive;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  font-size: 25px;
+  max-width: 600px;
 }
