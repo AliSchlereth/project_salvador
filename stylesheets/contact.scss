@@ -1,0 +1,25 @@
+.contact-row {
+  display: flex;
+  // flex-wrap: wrap;
+  // align-self:center;
+  text-align: left;
+  max-width: 750px;
+  color: $dark-accent;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.page-header {
+  text-align: center;
+  margin: auto;
+}
+
+.contact-element-header {
+  font-weight: bold;
+  width: 200px;
+}
+
+.contact-element {
+  display: flex;
+  flex-wrap: wrap;
+}
